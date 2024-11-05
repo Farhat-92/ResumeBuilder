@@ -1,0 +1,128 @@
+/* Background and Layout Styling */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url("https://example.com/background.jpg"); /* Replace with your background image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 8px 4px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+}
+
+button:first-of-type {
+  background-color: #4caf50;
+}
+
+button:last-of-type {
+  background-color: #2196f3;
+}
+
+#preview {
+  padding: 20px;
+  border-top: 2px solid #ddd;
+  margin-top: 20px;
+}
+
+#resume {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Template-specific styles */
+.template1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.template2 {
+  font-family: Arial, sans-serif;
+  color: #4caf50;
+}
+
+.template3 {
+  font-family: "Courier New", Courier, monospace;
+  color: #2196f3;
+}
+/* Existing styles... */
+
+/* Print Styles */
+@media print {
+  body {
+    background: none; /* Remove background color/image */
+    color: black; /* Set text color to black for printing */
+    font-size: 12pt; /* Adjust font size for readability */
+  }
+
+  header,
+  footer,
+  nav {
+    display: none; /* Hide header, footer, and nav for print */
+  }
+
+  .resume {
+    width: 100%; /* Use full width of the page */
+    padding: 20px; /* Add padding for content */
+    border: none; /* Remove borders for clean look */
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin: 0; /* Remove margins for headers */
+    page-break-after: avoid; /* Avoid page breaks after headers */
+  }
+
+  p {
+    margin: 5px 0; /* Adjust paragraph spacing */
+  }
+
+  /* Add specific styles for sections if needed */
+  .section {
+    page-break-inside: avoid; /* Avoid breaking sections across pages */
+    margin-bottom: 20px; /* Add space between sections */
+  }
+
+  /* You can add more styles as needed */
+}
