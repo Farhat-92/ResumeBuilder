@@ -140,7 +140,7 @@ button:last-of-type {
 }
 
 /* Template-specific styles */
-.template1 {
+#template1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -154,7 +154,7 @@ button:last-of-type {
     font-family: 'Helvetica Neue', sans-serif;
     color: #333;
 }
-.template2 {
+#template2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,7 +169,7 @@ button:last-of-type {
 }
 
 
-.template3 {
+#template3 {
     display: flex;
     flex-direction: column;
     align-items: center;
