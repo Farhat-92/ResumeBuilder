@@ -71,14 +71,18 @@ button:last-of-type {
 
 /* Template-specific styles */
 .template1 {
-     font-family: Arial, sans-serif;
-    color: #333;
-    max-width: 800px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #e0eafc;
+    background-image: radial-gradient(circle at top left, #d1d8e0, #f6f8fb),
+                      url('https://www.transparenttextures.com/patterns/geometry.png'); /* Decorative texture */
+    background-size: cover;
     padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #e0e0e0;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
 }
 .template2 {
     display: flex;
