@@ -15,7 +15,7 @@ function updatePreview() {
   resume.className = template;
   resume.innerHTML = `
         <p><strong>Name:</strong> ${name}</p>
-        <p>Professional title:  <h2>${title}</h2></p>
+        <p>Professional title: ${title}</p>
        
         <p><strong>Contact:</strong> ${contact}</p>
         <p><strong>LinkedIn:</strong> <a href="${linkedin}" target="_blank">${linkedin}</a></p>
