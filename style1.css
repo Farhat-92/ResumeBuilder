@@ -83,13 +83,24 @@ button:last-of-type {
 }
 
 .template2 {
-  font-family: Arial, sans-serif;
-  color: #4caf50;
+    display: flex;
+    font-family: 'Helvetica', sans-serif;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
 }
 
 .template3 {
-  font-family: "Courier New", Courier, monospace;
-  color: #2196f3;
+    font-family: 'Georgia', serif;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
 }
 /* Existing styles... */
 
