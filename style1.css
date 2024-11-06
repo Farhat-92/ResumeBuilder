@@ -126,21 +126,4 @@ button:last-of-type {
 
   /* You can add more styles as needed */
 }
-@media print {
-  body {
-    font-family: Arial, sans-serif;
-    color: #333;
-  }
-  .header {
-    background-color: #f2f2f2; /* Light color for background */
-  }
-  .section {
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-  }
-  /* Remove unnecessary elements for print */
-  .no-print {
-    display: none;
-  }
-}
 
