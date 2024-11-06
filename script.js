@@ -21,14 +21,10 @@ function updatePreview() {
         <p><strong>LinkedIn:</strong> <a href="${linkedin}" target="_blank">${linkedin}</a></p>
         <h3>Professional Summary</h3>
         <p><strong>Professional Title:</strong>${summary}</p>
-        <h3>Experience</h3>
-        <p>${experience}</p>
-        <h3>Education</h3>
-        <p>${education}</p>
-        <h3>Skills</h3>
-        <p>${skills}</p>
-        <h3>Certifications</h3>
-        <p>${certifications}</p>
+        <p><strong>Experience</strong> ${experience}</p>
+        <p><strong>Education</strong> ${education}</p>
+        <p><strong>Skills</strong> ${skills}</p>
+        <p><strong>Certifications</strong> ${certifications}</p>
     `;
 }
 
