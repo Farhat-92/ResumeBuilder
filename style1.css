@@ -89,7 +89,7 @@ button:last-of-type {
 /* Print Styles */
 @media print {
   body {
-    background: none; /* Remove background color/image */
+    background: #add8e6; /* Remove background color/image */
     color: black; /* Set text color to black for printing */
     font-size: 12pt; /* Adjust font size for readability */
   }
