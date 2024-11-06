@@ -1,6 +1,5 @@
-/* Background and Layout Styling */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Georgia', serif; /* Elegant serif font for a formal look */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,20 +9,98 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-.container {
-  max-width: 900px;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 20px;
-  margin: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #333; /* Dark text for readability */
+  text-align: center;
+  background-blur: 5px;
 }
 
+/* Wrapper for formal container */
+.container {
+  background-color: rgba(255, 255, 255, 0.8); /* White with slight transparency */
+  padding: 40px 60px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Soft shadow for elevation */
+  max-width: 80%;
+  min-width: 400px;
+  z-index: 1;
+}
+
+/* Elegant Header */
 h1 {
-  text-align: center;
-  color: #333;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2c3e50; /* Deep blue color for elegance */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  border-bottom: 2px solid #3498db; /* Decorative underline */
+  padding-bottom: 10px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Formal Paragraph Style */
+p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+  max-width: 800px;
+  margin-bottom: 30px;
+  padding: 0 20px;
+  font-weight: 400;
+  border-left: 6px solid #3498db; /* Blue accent border */
+  background-color: rgba(255, 255, 255, 0.9); /* Light background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 6px;
+}
+
+/* Formal Button Style */
+button {
+  background: linear-gradient(135deg, #3498db, #9b59b6); /* Gradient for button */
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Decorative Border for Section */
+.container::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #3498db, #9b59b6);
+  margin-top: 40px;
+  border-radius: 2px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .container {
+    padding: 30px 40px;
+  }
+
+  p {
+    font-size: 1rem;
+  }
 }
 
 form {
@@ -41,14 +118,7 @@ select {
   background-color: #f9f9f9;
 }
 
-button {
-  padding: 10px 20px;
-  margin: 8px 4px;
-  cursor: pointer;
-  border: none;
-  color: #fff;
-  border-radius: 4px;
-}
+
 
 button:first-of-type {
   background-color: #4caf50;
