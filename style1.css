@@ -11,6 +11,9 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
+#summary{
+  font-size:10px;
+}
 
 .container {
   max-width: 900px;
