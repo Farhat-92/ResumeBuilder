@@ -165,7 +165,7 @@ button:last-of-type {
                       url('https://www.transparenttextures.com/patterns/asfalt-dark.png'); /* Adding texture */
     background-size: cover;
     padding: 20px;
-    font-family: Arial, sans-serif;
+    font-family:  font-family:Tahoma ;
 }
 
 
@@ -180,7 +180,7 @@ button:last-of-type {
                       url('https://www.transparenttextures.com/patterns/brick-wall.png'); /* Background texture */
     background-size: cover;
     padding: 20px;
-    font-family: 'Arial', sans-serif;
+    font-family:Roboto;
     color: #333;
     overflow: hidden;
 }
