@@ -44,19 +44,18 @@
         ></textarea>
 
         <label for="template">Choose Template:</label>
-        <select id="template">
+        <select id="template" onchange="changeTemplate()">
           <option value="template1">Template 1</option>
           <option value="template2">Template 2</option>
           <option value="template3">Template 3</option>
         </select>
 
         <button type="button" onclick="printResume()">Print</button>
-        <button type="button" onclick="downloadPDF()">Download PDF</button>
       </form>
 
       <div id="preview">
         <div id="resume">
-          <!-- Live Preview of Resume goes here -->
+          <!-- Live Preview of Resume will be displayed here -->
         </div>
       </div>
     </div>
